@@ -3,3 +3,5 @@ This is my portfolio of my web development projects I have made using Django and
 1. Daily blog !
 
 2. Discord clone
+
+3. still thinking
