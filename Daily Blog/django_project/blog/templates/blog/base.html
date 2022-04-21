@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="{% static 'blog/main.css' %}">
 
     {% if title %}
-    <title> Django Blog - {{ title }} </title>
+    <title> Daily Blog - {{ title }} </title>
     {% else %}
-    <title> Django Blog </title>
+    <title> Daily Blog </title>
     {% endif %}
 
 </head>
@@ -29,7 +29,7 @@
 
         <div class="container text-center">
 
-            <a class="navbar-brand text-center mr-4" href="{% url 'blog-home' %}">Morning Blog</a>
+            <a class="navbar-brand text-center mr-4" href="{% url 'blog-home' %}">Daily Blog</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
                 aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
