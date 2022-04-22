@@ -3,6 +3,8 @@
 
 ### Description 
 
+TL;DR - A simple blog with CRUD functionalites thats supports images, password reset functionality &  profile maintenance
+
 It consists of two apps
 
 - User app - The user module imported from the django module itself and further decorated with additional fields. The authentication module imported django again for each user with respect to the Login & Logout functionality. Registering new user and making a profile with additonal user details (eg - email, profile image ) using singal thats fired on each user registration, for future changeability (eg - email). Username/ Password reset functionality throught user's mail incase user has forgot thier username or password. All the templates regarding each functionality
